@@ -5,7 +5,7 @@ import os
 
 def size_ram_check(fname):
 
-    fsize_gb = os.stat('somefile.txt').st_size
+    fsize_gb = os.stat(fname).st_size
 
     if fsize_gb > vm().total:
         mem_warning('file size exceeds memory capacity')
