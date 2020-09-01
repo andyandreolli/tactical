@@ -21,9 +21,10 @@ __Bash__
   
 ### ram_check
 
-- `tactical.io.size_ram_check(filename)`: checks if file is small enough to be loaded into memory without causing swapping
-  - `filename` is a string
-  - returns nothing; requires user input to proceed if file is too large
+Checks if a file is small enough to be loaded into memory without causing swapping:
+```tactical.io.size_ram_check(filename)```
+- `filename` is a string
+- returns nothing; requires user input to proceed if file is too large
 
 
 
