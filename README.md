@@ -2,29 +2,37 @@
 
 A repository of tactical utilities.
 
-[Python](#Python)
+__Python__
+- [ram_check](#ram_check)
+
+__Bash__
+- [mktikz](#mktikz)
 
 
 
 
 
-<a name="python">
+
 
 ## Python
 
----
 
+<a name="ram_check">
+  
 ### ram_check
 
 - `tactical.io.size_ram_check(filename)`: checks if file is small enough to be loaded into memory without causing swapping
   - `filename` is a string
   - returns nothing; requires user input to proceed if file is too large
 
+
+
 ## Bash
 
----
 
-### mktikz
+<a name="mktikz">
+  
+### latex/mktikz.sh
 
 Compiles a set of .tikz files into .pdf figures. Usage:
 ``` bash
