@@ -6,11 +6,8 @@ __Python__
 - [ram_check](#ram_check)
 
 __Bash__
-- [mktikz](#mktikz)
-
-
-
-
+- [latex/mkebox](#mkebox)
+- [latex/mktikz](#mktikz)
 
 
 
