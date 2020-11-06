@@ -7,6 +7,8 @@ __Python__
 
 __Bash__
 - [mktikz](#mktikz)
+- [mkebox](#mkebox)
+- [compare_md5](#compare_md5)
 
 
 
@@ -65,3 +67,14 @@ Compiles an ebox provided as a standalone .tikz file (outputs a .pdf). Usage:
 where:
 - *output_directory* is the directory in which pdf files will be generated
 - *files* is a regular expression indicating one or more .tikz files
+
+
+<a name="compare_md5">
+  
+### io/compare_md5
+
+Checks whether all files in the original folder (first argument) exist in the target folder (second as argument) and that they share the same MD5 checksum. Syntax:
+``` bash
+./compare_md5.sh orig_folder targ_folder
+```
+All the missing files or different checksums are printed on terminal. If no output is seen, then all files have the same checksum.
