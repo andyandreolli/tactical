@@ -58,3 +58,6 @@ for ii in "${farray[@]}"
 do
     check_file ${ii} ${orig_folder} ${targ_folder}
 done
+
+# be polite and say goodbye
+echo "Done checking ${orig_folder} and ${targ_folder}"
